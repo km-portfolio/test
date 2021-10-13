@@ -47,7 +47,7 @@ html, body {
   transform: translate(-50%, -50%);
 }
 #donuts {
-  display: block;
+  display: flex;
   /*flex-flow: wrap;*/
   justify-content: center;
   align-items: center;
