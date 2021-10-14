@@ -13,6 +13,35 @@ html, body {
   --donutsize:60px;
   --icingcolor: deeppink;
 }
+/*ヘッダー部分*/
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(196 77 88);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-right {
+    float: right;
+    /*margin-right: -25px;*/
+}
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+a {
+    text-decoration: none;
+}
 #main-wrapper {
   position:relative;
   height: 100%;
